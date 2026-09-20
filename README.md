@@ -227,7 +227,7 @@ internal static partial bool KernelOpenThread(IntPtr hDevice, uint pid, uint tid
 4. 卸载驱动前必须关闭所有句柄，否则服务会卡在待删除状态（详见「快速开始」）。
 5. 日志中的中文按 UTF-8 输出，默认 GBK 控制台可能显示乱码：入口处调用 `SetConsoleOutputCP(CP_UTF8)`，或运行前执行 `chcp 65001`，并给工程加 `/utf-8` 编译选项。
 6. 开源发布时建议忽略构建产物：`obj/`、`x64/`、`*.user`、`.vs/`、`out/`。
-
+7. 绕过签名使用https://github.com/Mattiwatti/EfiGuard
 ---
 
 ## 免责声明
