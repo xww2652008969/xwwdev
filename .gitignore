@@ -1,0 +1,117 @@
+# ============================================================
+# AI / 工具私有数据（不入库）
+# ============================================================
+.workbuddy-ai/
+.workbuddy/
+.claude/
+.codebuddy/
+.cursor/
+.vscode/
+
+# ============================================================
+# 构建输出
+# ============================================================
+out/
+build/
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+ARM64/
+[Dd]ebug/
+[Rr]elease/
+cmake-build-*/
+# VS 生成的工程中间目录（与源码目录 wtool/ 同名，勿误伤上层）
+wtool/wtool/
+
+# ============================================================
+# Visual Studio / MSVC
+# ============================================================
+.vs/
+ipch/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.opendb
+*.cachefile
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.ilk
+*.iobj
+*.ipdb
+*.idb
+*.pch
+*.tli
+*.tlh
+*.rsp
+*.log
+*.tmp
+
+# ============================================================
+# CMake
+# ============================================================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+*.cmake.tmp
+
+# ============================================================
+# .NET / NuGet
+# ============================================================
+artifacts/
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+*.deps.json
+*.runtimeconfig.json
+te.sln.DotSettings.user
+*.DotSettings.user
+
+# ============================================================
+# JetBrains Rider / IDEA
+# ============================================================
+.idea/
+*.sln.iml
+*.DotSettings
+
+# ============================================================
+# 二进制产物（驱动 / DLL / 调试符号）
+# ============================================================
+*.sys
+*.dll
+*.exe
+*.pdb
+*.exp
+*.lib
+*.obj
+*.o
+*.a
+*.so
+
+# ============================================================
+# 系统 / 杂项
+# ============================================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
